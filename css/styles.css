@@ -1,0 +1,256 @@
+/* ===============================
+   Colour Palette:
+   ---------------
+   Light Cream:	#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+
+/* General */
+
+body {
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  background: url(../images/bg-tile.gif) top left repeat;
+ }
+
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #4b2707;
+}
+
+
+/* Typography */
+
+h1, h2 {
+  font-family: 'Love Ya Like A Sister', cursive;
+  color: #d17f38;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  background: url(../images/header-divider.png) bottom center no-repeat;
+  height: 70px;
+}
+
+h1 em {
+  color: #4b2707;
+  font-style: normal;
+}
+
+h2 {
+
+}
+
+h3 {
+  margin: 0;
+}
+
+p.lead {
+  font-size: 2em;
+  text-align: center;
+  height: 50px;
+}
+
+p {
+  font-size: 1em;
+}
+
+a:link, a:visited {
+  font-size: 1em;
+  text-decoration: none;
+  color: #d17f38;
+}
+
+a:hover {
+  color: #4b2707;
+}
+
+hr {
+  background: url(../images/divider.png) center center no-repeat;
+  height: 100px;
+  border: 0;
+  clear:both;
+}
+
+
+/* Header */
+
+header nav {
+
+  text-align: center;
+}
+
+header nav ul {
+
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 20px;
+  line-height: 30px;
+
+}
+
+header nav ul li a {
+  display: block;
+  height: 100px;
+  padding-top: 70px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  background: url(../images/tiny-donut.png) center 50px no-repeat;
+}
+
+header nav ul li#logo a {
+  display: block;
+  background: url(../images/logo.png)top left no-repeat;
+  color: transparent;
+  width: 270px;
+  height: 100px;
+}
+
+header nav ul li#logo a:hover {
+  background: url(../images/logo-hover.png) top left no-repeat;
+
+}
+
+
+/* Hero */
+
+#hero {
+  background: url(../images/bg-tile-yellow.gif)top left repeat;
+}
+
+#hero .container {
+  position: relative;
+  text-align: center;
+}
+
+#hero .large-ribbon {
+  background: url(../images/fresh-whole-ingredients.png) top left no-repeat;
+  height: 200px;
+  width :150px;
+  position: absolute;
+  top: -30px;
+  right: 180px;
+  color: transparent;
+}
+
+
+/* The Whole Story */
+
+#story-excerpt {
+  margin-left: 15%;
+  width: 40%;
+  float: left;
+}
+
+#best-donut {
+  margin-right: 10%;
+  width: 20%;
+  float: left;
+  background: url(../images/award.png) center left no-repeat;
+  margin-left: 15px;
+  padding: 20px 0 0 140px;
+}
+
+
+
+/* News & Events */
+
+#articles {
+  float: left;
+  margin-left: 15%;
+  width: 25%;
+}
+
+#feature-image {
+  float: right;
+  margin-right: 15%;
+  width: 35%;
+  padding-top: 10px;
+}
+
+#news-events article {
+
+}
+
+#news-events article.news {
+  background: url(../images/icon-news.png) top left no-repeat;
+  padding-left: 60px;
+}
+
+#news-events article.event {
+  background: url(../images/icon-calendar.png) top left no-repeat;
+  padding-left: 60px;
+}
+
+#news-events header time {
+  font-size: 0.6em;
+  color: #d17f38;
+}
+
+#news-events section.excerpt {
+  font-size: 0.8em;
+}
+
+#news-events footer {
+  font-size: 0.6em;
+  padding: 10px;
+}
+
+
+/* Footer */
+
+footer.main {
+  background: url(../images/bg-tile-brown.gif) top left repeat;
+  height: 100px;
+  padding-top: 50px;
+  font-size: 0.8em;
+}
+
+footer.main a:hover {
+  color: #f2f3ee;
+}
+
+#uncopyright, #credits {
+  color: #f2f3ee;
+}
+
+#uncopyright {
+  float: left;
+  margin-left: 15%;
+  width: 30%;
+  background: url(../images/icon-recycle.png) center left no-repeat;
+  padding-left: 50px;
+}
+
+#credits {
+  float: right;
+  margin-right: 10%;
+  width: 30%;
+  background: url(../images/icon-apple.png) center left no-repeat;
+  padding-left: 50px;
+}
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
