@@ -8,3 +8,5 @@ Un petit exercice d'utilisation de Github
 * parametrer git : fait
 * commit : fait
 * push : fait
+* modifier un fichier sur github : fait
+* pull : fait
